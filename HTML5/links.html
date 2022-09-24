@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links </title>
+</head>
+
+<body>
+    <a href="https://www.google.com" target="_top"> GO To Google</a>
+
+
+    <p>
+        <strong>
+            values of target attribute:
+        </strong>
+
+    <ol>
+        <li>
+            _self :- <strong>default</strong> open the tag in same tab or window it was clicked .
+
+        </li>
+        <li>
+            _blank :- opens the document in the new tab
+        </li>
+        <li>
+            _parent :- opens the document in the same parent frame
+        </li>
+        <li>
+            _top:- opens the document in the full body of the window
+        </li>
+    </ol>
+    </p>
+
+    <p>
+
+        href in &lt; a &gt; is destination <br>
+        link text part is visible to user.
+
+    </p>
+
+    <p>
+    <h5>
+        <ul>
+            <li>
+                An unvisited link is underlined and blue
+            </li>
+            <li>
+                An visited link is underlined and purple
+            </li>
+
+            <li>
+                An Active link is underlined and red
+            </li>
+        </ul>
+    </h5>
+    </p>
+
+
+
+
+    <br>
+    <br>
+    <p>
+        Absolute URLs vs. Relative URLs
+        Both examples above are using an absolute URL (a full web address) in the href attribute.
+
+        A local link (a link to a page within the same website) is specified with a relative URL (without the
+        "https://www" part):
+    </p>
+
+
+    <h3>
+        HTML Links - Use an Image as a Link
+    </h3>
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+
+        <p>
+            <h3>Link to an Email Address</h3>
+            Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+        </p>
+        <a href="mailto:someone@example.com">Send email</a>
+
+
+<h3>
+    Button as a Link
+</h3>
+<p>
+    To use an HTML button as a link, you have to add some JavaScript code.
+
+JavaScript allows you to specify what happens at certain events, such as a click of a button:
+</p>
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+
+</body>
+
+</html>
